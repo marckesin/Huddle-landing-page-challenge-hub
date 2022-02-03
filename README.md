@@ -43,4 +43,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@marckesin](https://www.frontendmentor.io/profile/marckesin)
-- - Linkedin[marckesin](https://www.linkedin.com/in/marckesin)
+- Linkedin - [marckesin](https://www.linkedin.com/in/marckesin)
+- Codewars - [marckesin](https://www.codewars.com/users/marckesin)
