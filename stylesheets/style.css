@@ -61,8 +61,8 @@ h6 {
 
 i {
   color: hsl(0, 0%, 100%);
-  font-size: 20px;
-  margin: 7px 0;
+  font-size: 18px;
+  margin: 25%;
   transition: 0.3s;
 }
 
@@ -92,7 +92,7 @@ main {
 
 .col-content {
   width: 45%;
-  padding: 35px 55px 0 60px;
+  padding: 35px 0 0 60px;
   display: flex;
   flex-direction: column;
 }
@@ -105,7 +105,7 @@ main {
   background-image: url("../images/bg-desktop.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 3% 13% 5px;
+  padding: 4% 5% 5px;
   position: relative;
 }
 
@@ -167,23 +167,20 @@ main {
   top: 40px;
 }
 
-.social-media button {
-  padding: 0;
-  background-color: transparent;
-  border: none;
+.social-media a {
   width: 40px;
   height: 40px;
-  border: 1px solid hsl(0, 0%, 100%);
+  border: 1px solid white;
   border-radius: 35px;
-  cursor: pointer;
+  text-align: center;
   transition: 0.3s;
 }
 
-.social-media button:hover {
+.social-media a:hover {
   border-color: hsl(300, 69%, 71%);
 }
 
-.social-media button:hover i {
+.social-media a:hover i {
   color: hsl(300, 69%, 71%);
 }
 
@@ -250,8 +247,18 @@ main {
     position: initial;
   }
 
-  .social-media button {
+  .social-media a {
     width: 35px;
     height: 35px;
+  }
+}
+
+@media (min-width: 1450px) {
+  .container {
+    padding: 4% 13% 5px;
+  }
+
+  .col-content {
+    padding: 35px 55px 0 60px;
   }
 }
