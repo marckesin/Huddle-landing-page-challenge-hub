@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -11,8 +11,6 @@ This is a solution to the [Huddle landing page with single introductory section 
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-
-  
 
 ## Overview
 
@@ -27,12 +25,10 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com/marckesin/Huddle-landing-page-challenge-hub](https://github.com/marckesin/Huddle-landing-page-challenge-hub)
+- Live Site URL: [marckesin.github.io/Huddle-landing-page-challenge-hub/](https://marckesin.github.io/Huddle-landing-page-challenge-hub/)
 
 ## My process
 
