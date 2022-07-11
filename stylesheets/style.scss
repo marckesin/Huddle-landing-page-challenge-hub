@@ -48,17 +48,17 @@ main {
   background-repeat: no-repeat;
   padding: 4% 5% 5px;
   position: relative;
-}
 
-.container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: hsl(257, 40%, 49%);
-  z-index: -1;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(257, 40%, 49%);
+    z-index: -1;
+  }
 }
 
 .description {
@@ -83,20 +83,20 @@ main {
   color: hsl(257, 40%, 49%);
   border-radius: 35px;
   font-size: 18px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  box-shadow: hsla(0, 0%, 0%, 0.35) 0 5px 15px;
   cursor: pointer;
   transition: 0.3s;
   position: relative;
-}
 
-.register:hover {
-  background-color: hsl(300, 69%, 71%);
-  color: aliceblue;
-}
+  &:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: aliceblue;
+  }
 
-.register:active {
-  position: relative;
-  top: 2px;
+  &:active {
+    position: relative;
+    top: 2px;
+  }
 }
 
 .social-media {
@@ -114,6 +114,10 @@ main {
     border-radius: 35px;
     text-align: center;
     transition: 0.3s;
+
+    &:hover {
+      border-color: hsl(300, 69%, 71%);
+    }
   }
 }
 

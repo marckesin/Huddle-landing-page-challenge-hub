@@ -106,7 +106,6 @@ main {
   padding: 4% 5% 5px;
   position: relative;
 }
-
 .container::after {
   content: "";
   position: absolute;
@@ -145,12 +144,10 @@ main {
   transition: 0.3s;
   position: relative;
 }
-
 .register:hover {
   background-color: #e882e8;
   color: aliceblue;
 }
-
 .register:active {
   position: relative;
   top: 2px;
@@ -171,6 +168,9 @@ main {
   border-radius: 35px;
   text-align: center;
   transition: 0.3s;
+}
+.social-media a:hover {
+  border-color: #e882e8;
 }
 
 .social-media a:hover {
